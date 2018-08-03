@@ -1,0 +1,8 @@
+*{background: #ff1}
+.abc{margin-top: 10px}
+.ab{border: 1px solid #000000};
+
+
+@media (max-width: 780px) {
+	.ab{border: 1px solid #ff1};
+}

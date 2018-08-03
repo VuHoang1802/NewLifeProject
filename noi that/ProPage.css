@@ -1,0 +1,27 @@
+h1{font-weight: bold;}
+.NoiDungProPage{position: relative; background-color: #e6e6e4; padding-bottom: 20px}
+.NoiDungProPage .ListImage {width: 428px; height: 398px; overflow: hidden; position: absolute; left: 0px; top: 0px;}
+.NoiDungProPage .ListImage .BigImage{max-width: 100%; height: 292px; border: 1px solid #000; overflow: hidden;}
+.NoiDungProPage .ListImage .ListAnh {margin-top: 20px; height: 86px; overflow: hidden;}
+.NoiDungProPage .ListImage .ListAnh img{width: 129px; height: 100%; float: left; border: 1px solid #000}
+.NoiDungProPage .ListImage .ListAnh img+img {margin-left: 20px}
+.NoiDungProPage .ContentPro {float: right ; width: 620px;}
+.NoiDungProPage .ContentPro h1{font-size: 3em;}
+.NoiDungProPage .ContentPro i{font-size: 1.5em;}
+.NoiDungProPage .ContentPro label{font-size: 2em; font-weight:bold;}
+.NoiDungProPage .ContentPro p{font-size: 1.5em}
+
+.ContentPro1 {width: 100%; font-size: 1.5em; padding-top: 420px}
+.ContentPro1 p{font-size: 1em;}
+.NoiDungProPage button{margin: 10px auto; display: block;}
+.Comment {background-color: #fff; width: 100%; height: 220px;}
+.Comment .Thongtin{width: 100%; height: 60px}
+.Comment img{width: 60px; height: 60px; overflow: hidden;border:1px solid #000; margin: 5px 5px; float: left;}
+.Comment .Thongtin div{width: 200px; height: 100%;}
+.Comment .Thongtin div h4{font-weight: bold; padding-top: 10px}
+.Comment .InputCMT {width: 100%; height: 100px}
+.Comment .InputCMT textarea {width: 100%; height: 80%; font-size: 1.3em; border: 1px solid #000}
+.Comment .InputCMT button{height: 20%; background: none; float: right; width: 5%; margin-top: 5px; border: 1px solid #000}
+.Ads div{width: 960px; height: 220px; margin: 0px auto}
+.Ads div img{margin-left: 20px; float: left;}
+footer{clear: both;}

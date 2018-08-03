@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Home</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="AboutCss.css" />
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<div class="container">
+		<div class="LogIn" id="">
+			<div class="BG"></div>
+			<div class="input">
+				<button id="ExitDN" class="btn Exit"><i class="fas fa-times"></i></button>
+				<div id="DangNhapPanel" class="panelDangNhap">
+					<div class="logo">
+						<img class="logoCompany" src="Image/Template/logo.png" width="175" height="85">
+						<img class="logoCompany" src="Image/Template/DangNhap.gif" width="384" height="288">
+					</div>
+					<div class="GachDoc"></div>
+					<div class="DangNhapInput">
+						<hr style="margin: 60px 0px 0px 20px">
+						<div style="font-size: 1.2em; margin-left: 20px;">Đăng nhập với tài khoản của bạn</div>
+						<div class="textView">
+							<div>
+								<input type="text" name="" placeholder="">
+								<img class="iconTk" src="Image/Template/iconTk.png">
+							</div>
+							<div>
+								<input type="password" name="">
+								<img class="iconpass" src="Image/Template/iconpass.png">
+							</div>
+							<button id="DN" class="btn" style="letter-spacing: 0.4em">ĐĂNG NHẬP</button>
+							<a style="color: #4d9011; text-align: center; display: block; margin-top:10px; " href="">Quên Mật Khẩu</a>
+							<button id="buttonDK" style="background: none; color: #4d9011" class="btn">Đăng kí</button>
+							<a style="color: #4d9011; text-align: center; display: block; margin-top:120px; text-transform: uppercase;" href="">Bảo vệ tài khoản</a>
+						</div>
+
+					</div>
+
+				</div>
+				<div id="DangKiPanel" class="panelDangKi">
+					<div class="logo">
+						<img class="logoCompany" src="Image/Template/logo.png" width="175" height="85">
+						<img class="logoCompany" src="Image/Template/Dangki.gif" width="384" height="288">
+					</div>
+					<div class="GachDoc"></div>
+					<div class="DangNhapInput">
+						<hr style="margin: 60px 0px 0px 20px">
+						<div style="font-size: 1.2em; margin-left: 20px;">Đăng kí với thông tin của bạn</div>
+						<div class="textView">
+							<div>
+								<input style="color: #4d9011; font-size: 1.5em; font-weight: initial;" type="text" name="" placeholder="  Tài Khoản">
+							</div>
+							<div>
+								<input style="color: #4d9011; font-size: 1.5em; font-weight: initial;" type="password" name="" placeholder="  Mật Khẩu">
+							</div>
+							<div>
+								<input style="color: #4d9011; font-size: 1.5em; font-weight: initial;" type="text" name="" placeholder="  Email">
+							</div>
+							<div>
+								<input style="color: #4d9011; font-size: 1.5em; font-weight: initial;" type="tel" name="" placeholder="  Số điện thoại">
+							</div>
+							<button id="DK" class="btn" style="letter-spacing: 0.4em">ĐĂNG KÍ</button>
+							<button id="buttonDN" style="background: none; color: #4d9011" class="btn">Đăng nhập</button>
+							<a style="color: #4d9011; text-align: center; display: block; margin-top:10px; " href="">Giúp đỡ</a>
+							<a style="color: #4d9011; text-align: center; display: block; text-transform: uppercase;" href="">Bảo vệ tài khoản</a>
+						</div>
+
+					</div>
+
+				</div>
+
+			<!--
+			<div class="panelDangNhap">
+				<input id="TK" type="text" name="" placeholder="  Tài khoản ">
+				
+				<input id="MK" type="password" name="" placeholder="  Mật khẩu ">
+				<i class="icon fas fa-user-tie"></i>
+				<i class="icon fas fa-lock"></i>
+				<div>
+					<button id="DN">Đăng Nhập</button>
+					<button id="DK">Đăng Kí</button>
+				</div>
+				<button class="btn QuenMK"><u style="color: #fff"><i style="font-size: 3em;">Quên mật khẩu</i></u></button>
+			</div>
+			
+
+
+			<div class="panelDangKi">
+				<div>
+					<input type="text" name="" placeholder="  Tài khoản ">
+					<input type="text" name="" placeholder="  Mật Khẩu ">
+					<input type="text" name="" placeholder="  Email ">
+					<input type="text" name="" placeholder="  SĐT ">
+					<input type="text" name="" placeholder=" ">
+					<button>Đăng Kí</button>
+				</div>
+			</div>
+		-->
+	</div>
+</div>
+<header class="">
+	<div class="row col-md-12 header">
+		<div class="col-md-5 Rectangle1"></div>
+		<div class="col-md-2 logo"><a href="index.html"><img width="110" height="60" src="Image/Template/logo.png"></a></div>
+		<div class="col-md-5 Rectangle1"></div>
+	</div>
+	<div class="row col-md-12 ContactAndDangnhap">
+		<span id="ContactHL" class="col-md-4 offset-md-8">hotline: 0974.010.924  | 
+			<button class="btn btnTkuse" id="Tkuse">Đăng Nhập/Đăng Kí</button>
+		</span>
+	</div>
+	<div class="row col-md-12 Seach">
+		<div class="row col-md-4 offset-md-8 input">
+			<input class="form-control" type="text" name="" placeholder="Nhập tên" />
+			<button class="btn btnseach"></button>
+		</div>
+	</div>
+	<div class="row Menu " id="myTopnav">
+		<ul class="col-md-8 Listmenu">
+			<li><a href="index.html">Trang chủ </a></li>
+			<li><a class="active" href="About.html">Giới thiệu</a></li>
+			<li>
+				<a href="DSPro.html">Thiết kế nội thất</a>
+				<ul class="MenuChild">
+					<li><a href="">Danh mục bất động sản</a></li>
+					<li><a href="">Phòng</a></li>
+				</ul>
+			</li>
+
+			<li>
+				<a href="">Thi công nội thất</a>
+				<ul class="MenuChild">
+					<li><a href="">Hạng mục thi công</a></li>
+					<li><a href="">Phòng</a></li>
+				</ul>
+			</li>
+			<li><a href="">Tin tức</a></li>
+			<li><a href="Contact.html">Liên hệ</a></li>
+			<li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+			</a></li>
+		</ul>
+	</div> 
+</header>
+
+<section>
+	<div class="ContainerSection">
+		<div class="NoiDung">
+			<div class="HeaderNoiDung row">
+				<div class="TimeNew">
+					<div class="TextTime">
+						<h2 style="text-align: center;">OCT</h2>
+						<h1 style="text-align: center; font-size: 3.5em">11</h1>
+						<h4 style="text-align: center;">2018</h4>
+					</div>
+					<div style="height: 33.33%; width: 100%">
+						<img style="margin: 11px auto; display: block; " src="Image/iconTime.png" alt="">
+					</div>
+				</div>
+				<div class="headerContent">
+					<h1>Giới Thiệu Chung</h1>
+					<div>
+						<i class="far fa-clock"></i>
+						<label class="TextNghieng" for="">1/2/2018 - 9h00 pm</label>
+					</div>
+					<div>
+						<i class="fas fa-caret-right"></i>
+						<a class="TextNghieng" href="">Căn hộ royal new</a>
+					</div>
+					<div>
+						<i class="fas fa-caret-right"></i>
+						<a class="TextNghieng" href="">Văn phòng công ty Dev Neo</a>
+					</div>
+				</div>
+			</div>
+			<div class="NoidungPage">
+				<p>
+					Chào mừng quý khách đến với Website chính thức của Công ty Cổ phần Kiến Trúc & Xây Dựng New lift Việt Nam.
+
+Quý khách có thể tìm thấy trên website những thông tin giới thiệu về công ty, thông tin chi tiết về dịch vụ tư vấn thiết 
+kế và thi công nội - ngoại thất công trình do chúng tôi cung cấp, tham khảo các dự án chúng tôi đã thực hiện, tìm 
+hiểu 1 số giải pháp thiết kế & xây dựng được truy cập dưới dạng các tạp chí chuyên đề do chúng tôi nghiên cứu 
+trong nhiều năm qua. Bên cạnh đó là những trang báo được chúng tôi chọn lọc với nhiều thông tin hữu ích từ những 
+website liên kết, và cùng với nhiều tiện ích khác.
+
+New lift Việt Nam chúng tôi luôn là đơn vị tốt nhất để quý khách đặt trọn niềm tin. Rất hân hạnh được phục vụ 
+quý khách!
+				</p>
+				<img src="Image/Giới thiệu.jpg" alt="">
+				<p>
+					Như chúng ta đã biết kiến trúc (Architecture) là một ngành của sự kết hợp giữa khoa học và nghệ thuật, một hoạt 
+động được hình thành từ rất sớm. Trải qua quá trình phát triển với xã hội loài người, kiến trúc bộc lộ những sắc thái 
+khác nhau đặc trưng cho mỗi vùng miền có môi trường sống (Environment) và văn hoá (Culture) khác nhau. Đó 
+đương nhiên là quá trình chọn lọc tính hợp lý thuận theo lẽ tự nhiên.
+
+Đất nước Việt Nam ta trải qua hàng ngàn năm lịch sử, từ giao thương kinh tế đến dựng và giữ nước, nền kiến trúc 
+nước nhà có sự giao thoa mạnh mẽ giữa các vùng miền. Trải qua quá trình chọn lọc ấy, bản thân nó cũng mang 
+những nét đặc trưng rất riêng của người Việt mà hẳn là ai cũng thấy.
+
+Thế nhưng trong xã hội hiện nay, với nền kinh tế toàn cầu hoá, sự giao lưu VH-XH cùng với sự phát triển của 
+khoa học công nghệ, tính chọn lọc trong kiến trúc đã bị ảnh hưởng rất nhiều mà đáng tiếc là đang dần bị mất đi. 
+Chưa bao giờ vấn đề định hướng nét đặc trưng cho bộ mặt kiến trúc nước nhà được đặt ra cấp bách như hiện nay, 
+đặc biệt hơn là khi tốc độ xây dựng quá nhiều cộng với những yêu cầu về tiết kiệm năng lượng đang được phát 
+động toàn cầu.
+				</p>
+				<button class="btn btn-outline-primary">Xem Thêm</button>
+			</div>
+		</div>
+		<div class="MenuNoiDung">
+			<div class="menucon">
+				<div class="ListMenu">
+					<h2>Giới Thiệu</h2>
+					<ul>
+						<hr>
+						<li><a class="active" href="">Giới thiệu chung</a></li>
+						<hr>
+						<li><a href="">Lịch sử công ty</a></li>
+						<hr>
+						<li><a href="">Thương hiệu</a></li>
+						<hr>
+						<li><a href="">Chiến lược phát triển</a></li>
+						<hr>
+					</ul>
+					<div>
+						<a href=""><img style="margin: 0px auto; display: block;" src="Image/banner 1.jpg" alt=""></a>
+					</div>
+				</div>
+			</div>
+			<div class="Ads">
+				<a href=""><img src="Image/product 1.jpg" alt=""></a>
+				<a href=""><img src="Image/product 2.jpg" alt=""></a>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<footer class="row">
+	<div class="Input col-md-3">
+		<h4>ABOUT NEWLIFE</h4>
+		<hr>
+		<h5>Công ty CP Kiến trúc & Xây dựng NEWLIFE Việt Nam được thành lập từ năm 2005. Với 10 năm kinh nghiệm trong lĩnh vực thiết kế, thi công, lắp đặt các công trình nhà ở chúng tôi luôn tự hào vì đã mang đến những sản phẩm tốt nhất cho khách hàng.</h5>
+	</div>
+	<div class="col-md-4 Contact">
+		<h5>CÔNG TY CỔ PHẦN XÂY DỰNG VÀ NỘI THẤT NEW LIFE</h5>
+		<ul>
+			<li>Văn phòng: Tầng 12, Tòa nhà 17T2, Vinaconex 3, 
+			Trung Văn, Từ Liêm, Hà Nội</li>
+			<li>Email: contact@newlife.com</li>
+			<li>Hỗ trợ tư vấn:
+
+			0974.010.924 (Mr Hoang)</li>
+		</ul>
+		<div class="row icon">
+			<a href=""><i class="fab fa-facebook-square"></i></a>
+			<a href=""><i class="fab fa-skype"></i></a>
+			<a href=""><i class="fab fa-google-plus-g"></i></a>
+			<a href=""><i class="fab fa-linkedin"></i></a>
+			<a href=""><i class="fab fa-line"></i></a>
+		</div>
+	</div>
+	<div class="col-md-4 map">
+		<iframe height="223" width="400" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7450.295181174076!2d105.7930376!3d20.98672010000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1532425608078" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</div>
+</footer>
+<div class="row Copyright">
+	<span>Bản quyền thuộc về công ty New life</span>
+	<img id="BackUp" src="Image/Template/back.png" alt="" >
+</div>
+</div>
+
+<script>
+	function myFunction() {
+		var x = document.getElementById("myTopnav");
+		if (x.className === "Menu") {
+			x.className += " responsive";
+		} else {
+			x.className = "myTopnav";
+		}
+	} 
+	var offset = 500;
+	var duration = 750;
+	$(function(){
+		$(window).scroll(function () {
+			if ($(this).scrollTop() > offset)
+				$('#BackUp').fadeIn(duration);else
+			$('#BackUp').fadeOut(duration);
+		});
+	});
+
+	$('#Tkuse').click(function () {
+		$('.LogIn').fadeIn(duration)
+	});
+
+	$('#ExitDN').click(function () {
+		$('.LogIn').fadeOut(duration);
+	});
+
+	$('#DN').click(function () {
+		$('.LogIn').fadeOut(duration);
+		var k = $('#TK').val();		
+	});
+	$('#DK').click(function () {
+		$('.LogIn').fadeOut(duration);	
+		$('#DangNhapPanel').fadeIn(duration);
+	});
+
+	$('.BG').click(function () {
+		$('.LogIn').fadeOut(duration);	
+	});
+
+
+	$('#buttonDK').click(function () {
+		$('#DangNhapPanel').fadeOut(duration);
+		$('#DangKiPanel').fadeIn(duration);
+		var k = $('#TK').val();		
+	});
+
+	$('#buttonDK').click(function () {
+		$('#DangNhapPanel').fadeOut(duration);
+		$('#DangKiPanel').fadeIn(duration);
+		var k = $('#TK').val();		
+	});
+	$('#buttonDN').click(function () {
+		$('#DangKiPanel').fadeOut(duration);
+		$('#DangNhapPanel').fadeIn(duration);
+		var k = $('#TK').val();		
+	});
+
+	$(document).ready(function(){
+		$('#BackUp').click(function(){
+			$("body,html").animate({scrollTop: 0}, "slow");
+		});
+	});
+	/*
+	function SetColor() {
+		$('.ThuTu div').css('background-color','#fff');
+	}
+	$(".ThuTu .btn1").click(function(){
+		SetColor();
+		$('.btn1').css('background-color','#ff1');
+		$('.ImageBox').animate({left: '0px'});
+	});
+	$(".ThuTu .btn2").click(function(){
+		SetColor();
+		$('.btn2').css('background-color','#ff1');
+		$('.ImageBox').animate({left: '-1140px'});
+	});
+	$(".ThuTu .btn3").click(function(){
+		SetColor();
+		$('.btn3').css('background-color','#ff1');
+		$('.ImageBox').animate({left: '-2280px'});
+	});
+	var k = 0;
+	$(document).ready(function(){
+		setInterval(function(){ 
+			$('.ImageBox').animate({left: k });
+			k -= 1140;
+			if (k < -2280) {
+				k = 0;
+			}
+			;}, 3000);
+		setInterval(function(){ 
+			if (k == -1140) {
+				SetColor();
+				$('.btn1').css('background-color','#ff1');
+			}
+			else if (k == -2280) {
+				SetColor();
+				$('.btn2').css('background-color','#ff1');
+			}
+			else{
+				SetColor();
+				$('.btn3').css('background-color','#ff1');
+			}
+			;}, 3000);
+	});
+	*/
+</script>
+</body>
+</html>

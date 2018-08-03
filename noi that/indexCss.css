@@ -1,0 +1,172 @@
+*{margin: 0px; padding: 0px; font-size: 10px; font-family: UTM Helve}
+hr{background-color: #000000;}
+body{background-color: #fff;}
+a{text-decoration: none; color: #000000;}
+a:hover{color: #8f9200; text-decoration: underline;}
+ul li{ list-style: none; }
+.container{background-color:#fff}
+.LogIn{position: fixed; width: 100%; height: 100%; overflow: hidden;z-index: 100; display: none;}
+.LogIn .BG{width: 100%; height: 100%; background: url(Image/Template/BGLogin.jpg); position: fixed; top: 0px; left: 0px;}
+.LogIn .input .Exit {position: absolute; right: 20px; top: 20px;}
+.LogIn .input .Exit i{font-size: 3em;}
+.LogIn .input {overflow: hidden;background-color: #fff ;width: 1015px; height: 518px; position: absolute;top: 50%;left: 40%;transform: translate(-50%, -50%); border: 1px solid #000000}
+.LogIn .input .panelDangNhap{display: block;}
+.LogIn .input .panelDangKi{display: none;}
+.LogIn .input div div {float: left;}
+.LogIn .input div  div #DN:hover{color: #fff}
+.LogIn .input div  div #DK:hover{color: #fff}
+.LogIn .input div .logo{ width: 505px; height: 518px; z-index: 99}
+.LogIn .input div .logo .logoCompany{margin: 47px auto 0px; display: block;}
+.LogIn .input div .GachDoc{width: 3px; height: 400px; background-color: #c8c4c2; margin-top: 59px}
+.LogIn .input div .DangNhapInput{ width: 505px; height: 518px; z-index: 99}
+.LogIn .input div .DangNhapInput hr{height: 3px; width: 50px; background-color: #4d9011;}
+.LogIn .input div .DangNhapInput .textView {margin: 50px 100px; display: block; position: relative;}
+.LogIn .input div .DangNhapInput .textView input{background:#fff url(Image/Template/box.png) no-repeat; width: 310px; height: 50px; border: none; font-size: 2em; font-weight: bold;}
+.LogIn .input div .DangNhapInput .textView .iconTk{position: absolute; right: 20px; top: 12px}
+.LogIn .input div .DangNhapInput .textView .iconpass{position: absolute; right: 20px; top: 60px}
+.LogIn .input div .DangNhapInput .textView button{background: url(Image/Template/button.png) no-repeat ;width: 310px; height: 50px;}
+
+.header {height: 60px;}
+.header .Rectangle1{width: 300px; height: 3px; background-color: #000000; margin-top: 20px;}
+.header .logo {}
+.header .logo img{margin: 0px auto; display: block;}
+.ContactAndDangnhap span {font-size: 1.4em; text-transform: uppercase;}
+.ContactAndDangnhap span button{font-size: 1em; background: none; margin-top: -6px;}
+.Seach input {font-size: 1.5em;}
+.input{position: relative;}
+.form-control{height: 25px;}
+.btnseach{width: 25px; height: 25px; position: absolute; right: 17px; background-color: #fff; background: url(Image/Template/iconseach.png);}
+..Menu {position: relative;}
+.Menu .Listmenu{margin:10px 50px;}
+.Menu ul li {float: left; margin: 0px 10px}
+.Menu ul li a{font-size: 1.5em; text-transform: uppercase;}
+
+.Menu ul li .MenuChild{width: 150px; display: none; position: absolute; background-color: #fff; z-index: 99; padding: 10px}
+.Menu ul li .MenuChild li{list-style:circle; }
+.Menu ul li .MenuChild a{font-size: 1.2em;}
+.Menu ul li:hover .MenuChild{display: block;}
+.Menu .icon{display: none;}
+.active{color: #929204}
+
+.slider{ height: 315px; border: 1px solid; background: url(Image/slider1.jpg) no-repeat; background-size: cover;}
+.slider .HeaderContentSilder {text-transform: uppercase; font-size: 3em; font-weight: bold; display: flex; flex-direction: column;align-items: center; margin-top: 80px; }
+.slider .Slogan{display: flex;flex-direction: column;align-items: center; font-size: 1.5em;}
+.slider a i {text-align: center; display: block; font-size: 2em;}
+.Content1{margin: 10px auto}
+.Content1 .header{height: 35px; text-transform: uppercase; text-align: center; display: block; font-size: 2.5em; font-weight: bold;}
+.Content1 .cta{text-align: center; display: block; font-size: 1.5em;}
+.Content1 img {margin: 0px auto; display: block;}
+.btnNews{margin-bottom:10px }
+.btnNews button{ font-size: 1.5em; margin: 0px auto;}
+
+.NoiBat{height: 190px; position: relative; clear: both;}
+.NoiBat .productNoiBat{height: 176px ; position: relative; overflow: hidden; margin-left: 8px;}
+.NoiBat .productNoiBat div{position: absolute; bottom: 0px; left: 5px; height: 50px; background: #000000; opacity: 0.5; width: 0px; overflow: hidden;
+transition: width 0.5s ease 0s; transition-duration: 2s; -moz-transition: width 0.5s ease 0s; -moz-transition-duration: 0.5s; -webkit-transition: width 0.5s ease 0s; -webkit-transition-duration: 0.5s; -o-transition: width 0.5s ease 0s; -o-transition-duration: 2s; -ms-transition: width 0.5s ease 0s; -ms-transition-duration: 0.5s;}
+.NoiBat .productNoiBat div span{font-size: 2em; color: #fff; font-weight: bold; margin-top: 10px; display: block;}
+.NoiBat a:hover div div {width: 266px;}
+.NoiBat .btnMove{top: 60px; background: url(Image/Move.png) no-repeat; position: absolute; width: 37px; height: 68px;}
+.NoiBat .btnright{right: 0px; transform: rotateY(180deg);}
+.NoiBat .btnleft{left: 0px;}
+(.Thietke , .ThiCong).btnMove {display: none;}
+.Thietke {position: relative;height: 620px;}
+.Thietke .btnMove{top: 240px; background: url(Image/Move.png) no-repeat; position: absolute; width: 37px; height: 68px;}
+.Thietke .btnright{right: 0px; transform: rotateY(180deg);}
+.Thietke .btnleft{left: 0px;}
+
+.ThiCong{position: relative; height: 620px;}
+.ThiCong .btnMove{top: 240px; background: url(Image/Move.png) no-repeat; position: absolute; width: 37px; height: 68px;}
+.ThiCong .btnright{right: 0px; transform: rotateY(180deg);}
+.ThiCong .btnleft{left: 0px;}
+
+.MainBox{width: 1140px;height: 262px; overflow: hidden;margin-top: 20px}
+.MainBox .ImageBox{width: 300%; position: relative; left: 0px;}
+.MainBox .ImageBox .Box1 {width: 33.3%; float: left;}
+.MainBox .ImageBox .Box1 .product{overflow: hidden; width: 23%;height: 100%; background-color: #fff; float: left; margin-left: 2%; border: 2px solid #000; box-shadow: 3px 3px 10px}
+.MainBox .ImageBox .Box1 .product:first-child{ margin-left: 0px}
+.MainBox .ImageBox .Box1 .product div{height: 50px; width: 100%; position: relative;}
+.MainBox .ImageBox .Box1 .product div h4{font-weight: bold; text-transform: uppercase; margin-left: 10px; margin-top: 5px;}
+.MainBox .ImageBox .Box1 .product div div {position: absolute; left: 190px; display: block; background: none}
+.MainBox .ImageBox .Box1 .product div div i{font-size: 1.5em;}
+.MainBox .ImageBox .Box1 .product div p{font-weight: bold; background-color: #fff; padding: 4px; position: absolute; z-index: 50;top: 50%;left: 50%;transform: translate(-50%, -50%); margin-top: 8px}
+.MainBox .ImageBox .Box1 .product div hr {position: absolute; width: 260px; height: 1px; background-color: #000000; z-index: 1; top: 50%;left: 50%;transform: translate(-50%, -50%)}
+.MainBox .ImageBox .Box1 .product:hover div h4{color: #7e912e}
+
+.ThuTu {margin-top: 10px; display: none;}
+.ThuTu div{border-radius: 50%;border: 1px solid #000; width: 25px; height: 25px; background-color: #fff; float: left; margin-left: 10px;}
+
+.newsContent{height: 320px; overflow: hidden;}
+.panelNews {width: 620px;
+	height: 320px;
+	position: absolute;
+	overflow: hidden;}
+.info {height: 300%;
+	width: 100%;
+	position: relative;
+	top: 0px;
+	animation: sliderMove 40s infinite;}
+
+.info .Tin1 {height: : 33%; width: 100%; margin-top: 6px; overflow: hidden;}
+.info .Tin1 img{height: 100px;}
+.info .content {width: 420px; height: 100px; margin-left: 20px;}
+.info h3 {font-weight: bold; text-transform: uppercase; overflow: hidden; height: 23px;}
+.info p{font-size: 1.5em; height: 50px; overflow: hidden; margin-bottom: 0em;}
+.info a i {font-size: 1.4em; color: #5875be}
+
+@keyframes sliderMove{
+	0%{
+		top: 0px;
+	}
+	25%{d
+		top: -100%
+	}
+	50%
+	{
+		top: -200%;
+	}
+	75%
+	{
+		top: -100%;
+	}
+	100%{
+		top: 0px;
+	}
+}
+.DoiTac h1{font-size: 2.5em; font-weight: bold; text-align: center;}
+.DoiTac .Image {margin: 30px auto;}
+.DoiTac img+img { margin-left: 110px;}
+footer{height: 280px; background-color: #1d1d1d}
+footer .Input{width: 273px; height: 223px; margin: auto 20px; font-size: 1.5em}
+footer .Input h4,h5{color: #fff; font-weight: bold;}
+footer .Input hr{background-color: #fff; height: 3px;}
+footer .Contact {margin-top: 25px;}
+footer .Contact ul {margin-top: 15px;}
+footer .Contact h5 {font-weight: bold; color: #fff;}
+footer .Contact ul li {color: #fff;}
+footer .Contact .icon i{font-size: 3em; margin-left: 15px; display: block; color: #fff}
+footer .Contact .icon a:hover i{color: #010101; text-decoration: underline;}
+footer .map {margin-top: 25px}
+
+.Copyright{height: 30px; background-color: #000000; position: relative;}
+.Copyright span {display: block; color: #fff; margin: auto 20px; font-weight: bold; font-style: italic;}
+.Copyright img{position: fixed; left: 50%; bottom: 10px; display: none;}
+
+@media (max-width: 780px) {
+	.header .Rectangle1{display: none;}
+	.header .logo img{width: 50px; height: 30px;}
+	.header .ContactAndDangnhap span{font-size: 1em;}
+	.header .ContactAndDangnhap span a{font-size: 0.5em;}
+	.Menu .icon{display: block;}
+	.Menu ul li a {display: none;}
+
+	.newsContent .info .Tin1 img {margin: 0px auto;}
+	.DoiTac img {height: 76px; width: 140px; margin: 5px auto;}
+	.map {display: none;}
+	.slider .HeaderContentSilder{font-size: 1.5em;}
+	.Content1 .header{font-size: 2em;}
+	.Content1 .cta {margin: 20px auto;}
+	.Content1 img {margin: 0px auto;}
+	footer .Input{width: 240px;}
+	footer .Input button {margin-left: 170px;}
+	.newsContent .img{display: none;}
+}
